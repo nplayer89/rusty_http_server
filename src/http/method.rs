@@ -1,4 +1,4 @@
-use std::{str::FromStr, string};
+use std::str::FromStr;
 
 #[derive(Debug)]
 pub enum Method {

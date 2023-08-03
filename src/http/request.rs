@@ -1,5 +1,4 @@
 use std::str::{self, Utf8Error};
-use crate::http::request;
 use super::method::{Method, MethodError};
 use std::convert::TryFrom;
 use std::error::Error;
