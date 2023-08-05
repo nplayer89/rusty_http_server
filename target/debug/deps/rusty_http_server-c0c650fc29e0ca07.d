@@ -11,3 +11,5 @@ src/http/query_string.rs:
 src/http/response.rs:
 src/http/status_code.rs:
 src/website_handler.rs:
+
+# env-dep:CARGO_MANIFEST_DIR=/Users/neil/rusty_http_server
