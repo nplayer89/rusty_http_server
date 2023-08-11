@@ -20,8 +20,8 @@ impl Server {
         Self {
             addr
         }
-    }
 
+    }
     pub fn run(self, mut handler: impl Handler) {
         println!("Listening on: {}", self.addr);
 
